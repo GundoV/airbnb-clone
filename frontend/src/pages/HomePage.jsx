@@ -125,7 +125,7 @@ const HomePage = () => {
     let isMounted = true;
     const fetchListings = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/listings');
+        const res = await api.get('/listings');
         if (!isMounted) return;
 
         const listingsWithImages = res.data.map((listing) => {
