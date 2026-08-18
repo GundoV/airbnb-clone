@@ -1,5 +1,16 @@
 {
+  "name": "my-render-app",
+  "version": "1.0.0",
+  "description": "Free deployment to Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
-    "jsonwebtoken": "^9.0.3"
+    "express": "^4.19.2"
   }
 }
