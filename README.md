@@ -14,6 +14,7 @@ A fully functional full-stack Airbnb clone built as the final capstone project f
 * **Frontend:** React, JavaScript, HTML5, CSS3
 * **Backend:** Node.js / Express
 * **Deployment:** Render
+* **Database:** MongoDB
 
 ## Author
 * **Gundo V Nemandivhe**
